@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Survey-form
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Student Learning Experience Survey</h1>
+         <p id="description">This survey helps us understand student learning experiences and improve our courses.</p>
+         <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Enter Your Full Name:</label>
+                <input id="name" type="text" required placeholder="Example: John Smith">
+            </fieldset>
+            <fieldset>
+                <label id="email-label" for="email">Enter Your Email Address:</label>
+                <input id="email" type="email" required placeholder="john@email.com">
+            </fieldset>
+            <fieldset>
+                <label id="number-label" for="number">Enter Your Age:</label>
+                <input id="number" type="number" min="12" max="60" placeholder="Example: 18">
+            </fieldset>
+            <fieldset>
+                <label for="dropdown">What is your current education level?</label>
+                <select type="dropdown" id="dropdown" required>
+                    <option>Select your level</option>
+                    <option>School Student</option>
+                    <option>College Student</option>
+                    <option>Graduate</option>
+                    <option>Working Professional</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                     <label>How satisfied are you with your learning experience?</label>
+                     <div><input id="opt1" type="radio" name="satisfaction" value="very-satisfied">
+                     <label for="opt1">Very Satisfied</label>
+                     
+                     <input id="opt2" type="radio" name="satisfaction" value="satisfied">
+                     <label for="opt2">Satisfied</label>
+                     
+                     <input id="opt3" type="radio" name="satisfaction" value="neutral">
+                     <label for="opt3">Neutral</label>
+
+                     <input id="opt4" type="radio" name="satisfaction" value="dissatisfied">
+                    <label for="opt4">Dissatisfied</label></div>
+                     
+        </fieldset>
+
+            <fieldset>
+                <label>Which subjects or skills do you enjoy learning?</label>
+                    <div>
+                    <input id="1" type="checkbox" name="interests" value="Programming">
+                    <label for="1">Programming</label>
+                    <input id="2" type="checkbox" name="interests" value="Mathematics">
+                    <label for="2">Mathematics</label>
+                    <input id="3" type="checkbox" name="interests" value="Web Development">
+                    <label for="3">Web Development</label>
+                    <input id="4" type="checkbox" name="interests" value="Data Structures">
+                    <label for="4">Data Structures</label>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <label for="textarea">Any suggestions or feedback for improvement?</label>
+                <textarea id="textarea" type="text" required placeholder="Write your suggestions here..."></textarea>
+            </fieldset>
+
+           <button id="submit" type="submit">Submit</button>
+
+
+         </form>
+    </body>
+</html>
