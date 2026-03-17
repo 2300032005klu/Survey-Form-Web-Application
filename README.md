@@ -13,8 +13,8 @@ A responsive survey form built using HTML and CSS with a clean UI and user-frien
 - CSS
 
 ## 📷 Preview
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/78574b47-5705-40ac-bb5d-d1d9f9b5430e" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/882ea1af-f07e-48a3-acdf-7065e0299a6b" />
 
 
 ## 🌐 Live Demo
-https://github.com/2300032005klu/Survey-Form-Web-Application.git
+ https://2300032005klu.github.io/Survey-Form-Web-Application/
