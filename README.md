@@ -13,7 +13,8 @@ A responsive survey form built using HTML and CSS with a clean UI and user-frien
 - CSS
 
 ## 📷 Preview
-(Add screenshot here)
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/78574b47-5705-40ac-bb5d-d1d9f9b5430e" />
+
 
 ## 🌐 Live Demo
-(Add GitHub Pages link here)
+file:///C:/Users/pepak/OneDrive/Desktop/webprojects/html-css-projects/1.surveyforn/index.html
